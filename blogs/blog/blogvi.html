@@ -10,8 +10,27 @@
 
 
         }
+        .oba {
+            padding: 10px;
+            text-align: center;
+            border-radius: 15px;
+            background-color: chartreuse;
+        }
+        .container {
+            max-width: 1000px;
+            height: auto;
+            margin: 20px auto;
+            padding: 20px;
+            border-radius: 15px;
+            border-color:gray;
+            background: white;
+            box-shadow: 0 0 5px;
+        }
 
         nav {
+            padding: 10px;
+            height: 40px ;
+            border-radius: 15px;
             text-align: center;
             font-size: 30px;
         }
@@ -21,6 +40,7 @@
             text-decoration: none;
         }
     </style>
+    
 
     <nav style="background-color: aquamarine; ">
         <a href="blogvi.html">/
@@ -32,12 +52,19 @@
         <a href="Africa.html"> África /</a>
 
     </nav>
+    <br>
+    <br>
+    
+    
+    <div class="oba">
     <h1>Blog de Viagens</h1>
     <h2>Um dos melhores Blogs de Viagens já feito</h2>
+    </div>
 
 </header>
 
 <body>
+    <div class="container">
     <section id="Relatos de viagens para diferentes destinos">
         <h2>Relatos de viagens</h2>
         <h3>América</h3>
@@ -309,9 +336,9 @@
     <form method="post" action="/envio.php">
         <fieldset>
             <legend>Formulário de contato para os leitores enviarem perguntas ou comentários</legend>
-            <label>Nome:<input type="text" name="nome" placeholder="Digite seu Nome" autofocus required><br></label>
-            <label>e-mail:<input type="email" name="email" placeholder="Digite seu e-mail" autofocus required><br></label>
-            <label>Comentário:<textarea name="Comentário" placeholder="Comentário" autofocus required></textarea> </label>
+            <label>Nome:<input type="text" name="nome" placeholder="Digite seu Nome"  required><br></label>
+            <label>e-mail:<input type="email" name="email" placeholder="Digite seu e-mail"  required><br></label>
+            <label>Comentário:<textarea name="Comentário" placeholder="Comentário"  required></textarea> </label>
             <button type="submit">Enviar</button>
         </fieldset>
         <br>
@@ -321,7 +348,8 @@
         <li><a href="https://www.decolar.com/passagens-aereas/">Site de viagens aereas confiavel</a></li>
         <li><a href="https://www.skyscanner.com.br/">Site de viagens aereas baratas</a></li>
 
-    </ul>    
+    </ul>
+    </div>    
 
 
 </body>
