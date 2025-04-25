@@ -1,7 +1,9 @@
 <!DOCTYPE html>
 <html lang="pt-br">
 
-<header>
+<head>
+    <title>América-Blog de Viagens</title>
+    <meta charset="utf-8">
     <style>
         nav a:hover {
             text-decoration: overline underline;
@@ -13,7 +15,8 @@
             padding: 10px;
             text-align: center;
             border-radius: 15px;
-            background-color: chartreuse;
+            background-color: rgb(4, 78, 4);
+            color: white;
         }
 
         .container {
@@ -22,82 +25,116 @@
             margin: 20px auto;
             padding: 20px;
             border-radius: 15px;
-            border-color:gray;
+            border-color: gray;
             background: white;
             box-shadow: 0 0 5px;
         }
 
-        nav {
+        nav ul {
             padding: 10px;
-            height: 40px ;
+            height: 40px;
             border-radius: 15px;
-            text-align: center;
             font-size: 30px;
+            background-color: rgb(4, 78, 4);
+            text-decoration: none;
+            list-style: none;
+            display: flex;
+            justify-content: center;
+        }
+
+        nav a {
+            color: rgb(255, 255, 255);
+
         }
 
         a {
-            color: black;
+
             text-decoration: none;
+            color: black;
+        }
+
+        a:hover {
+            text-decoration: underline;
+
+
         }
     </style>
+</head>
 
-    <nav style="background-color: aquamarine; ">
-        <a href="blogvi.html">/
-            Home / </a>
-        <a href="Europa.html"> Europa /</a>
-        <a href="America.html"> América /</a>
-        <a href="Oceania.html"> Oceania /</a>
-        <a href="Asia.html"> Ásia /</a>
-        <a href="Africa.html"> África /</a>
 
-    </nav>
-    <br>
-    <br>
-    <title>América-Blog de Viagens </title>
-    <meta charset="utf-8">
-    <div class="oba">
-    <h1>América</h1>
-    </div>
-</header>
 
 <body>
+
+    <header>
+
+
+        <nav id="moa">
+            <ul>
+                <li><a href="blogvi.html">/
+                        Home / </a></li>
+                <li><a href="Europa.html"> Europa /</a></li>
+                <li><a href="America.html"> América /</a></li>
+                <li><a href="Oceania.html"> Oceania /</a></li>
+                <li><a href="Asia.html"> Ásia /</a></li>
+                <li><a href="Africa.html"> África /</a></li>
+            </ul>
+        </nav>
+        <br>
+        <br>
+        <div class="oba">
+            <h1>América</h1>
+        </div>
+    </header>
+    <main>
+
     <div class="container">
-    <p>O continente americano é um verdadeiro mosaico de paisagens, culturas e experiências únicas. Do calor caribenho à
-        imensidão dos Andes, há sempre algo novo para descobrir. Se você está procurando destinos inesquecíveis, aqui
-        vão 4 países das Américas que valem (muito) a viagem:</p>
-    <h2>Canadá</h2>
-    <p>Se você ama natureza, o Canadá é um prato cheio. Lagos cristalinos, florestas que parecem saídas de filmes e
-        montanhas que tiram o fôlego. Cidades como Vancouver, Toronto e Montreal misturam o urbano com o verde de forma
-        harmoniosa. No outono, o espetáculo das folhas vermelhas é um dos cenários mais bonitos que você vai ver na
-        vida.</p>
-    <img src="img/canada.png" title="Canadá" style="width: 700px;height: 400px;">
-    <h2>Brasil</h2>
-    <p>Sim, o Brasil é um dos destinos mais incríveis do mundo — e não estamos falando só de praias! Chapada Diamantina,
-        Amazônia, Lençóis Maranhenses, Pantanal… A diversidade natural é imensa, sem contar a cultura rica, a comida de
-        dar água na boca e a alegria do povo. É viagem que toca a alma.</p>
+        <p>O continente americano é um verdadeiro mosaico de paisagens, culturas e experiências únicas. Do calor
+            caribenho à
+            imensidão dos Andes, há sempre algo novo para descobrir. Se você está procurando destinos inesquecíveis,
+            aqui
+            vão 4 países das Américas que valem (muito) a viagem:</p>
+        <h2>Canadá</h2>
+        <p>Se você ama natureza, o Canadá é um prato cheio. Lagos cristalinos, florestas que parecem saídas de filmes e
+            montanhas que tiram o fôlego. Cidades como Vancouver, Toronto e Montreal misturam o urbano com o verde de
+            forma
+            harmoniosa. No outono, o espetáculo das folhas vermelhas é um dos cenários mais bonitos que você vai ver na
+            vida.</p>
+        <img src="img/canada.png" title="Canadá" style="width: 700px;height: 400px;">
+        <h2>Brasil</h2>
+        <p>Sim, o Brasil é um dos destinos mais incríveis do mundo — e não estamos falando só de praias! Chapada
+            Diamantina,
+            Amazônia, Lençóis Maranhenses, Pantanal… A diversidade natural é imensa, sem contar a cultura rica, a comida
+            de
+            dar água na boca e a alegria do povo. É viagem que toca a alma.</p>
         <img src="img/brasil.png" title="Brasil" style="width: 700px;height: 400px;">
-    <h2>Peru</h2>
+        <h2>Peru</h2>
 
-    <p>Destino perfeito para quem ama história e aventura. Machu Picchu é só o começo: o Vale Sagrado, a culinária de
-        Lima (uma das melhores do mundo!) e as paisagens surrealistas de Huaraz e da Montanha Colorida fazem do Peru uma
-        experiência transformadora. Ideal para quem curte trilhas, cultura ancestral e comida boa.</p>
+        <p>Destino perfeito para quem ama história e aventura. Machu Picchu é só o começo: o Vale Sagrado, a culinária
+            de
+            Lima (uma das melhores do mundo!) e as paisagens surrealistas de Huaraz e da Montanha Colorida fazem do Peru
+            uma
+            experiência transformadora. Ideal para quem curte trilhas, cultura ancestral e comida boa.</p>
         <img src="img/peru.png" title="Peru" style="width: 700px;height: 400px;">
-    <h2>Cuba</h2>
+        <h2>Cuba</h2>
 
-    <p>Caminhar pelas ruas de Havana é como viajar no tempo. A arquitetura colonial, os carros antigos, a música nas
-        esquinas e a energia vibrante do povo fazem de Cuba um destino único. Além disso, as praias caribenhas são de um
-        azul inacreditável. Uma viagem diferente, intensa e cheia de histórias.</p>
+        <p>Caminhar pelas ruas de Havana é como viajar no tempo. A arquitetura colonial, os carros antigos, a música nas
+            esquinas e a energia vibrante do povo fazem de Cuba um destino único. Além disso, as praias caribenhas são
+            de um
+            azul inacreditável. Uma viagem diferente, intensa e cheia de histórias.</p>
         <img src="img/cuba.png" title="Cuba" style="width: 700px;height: 400px;">
         <br>
         <br>
         <br>
     </div>
+    </main>
+
+    <footer style="text-align: center;background-color: aquamarine;font-size: 20px;">
+        Copyright 2025 direitos de Blog de Viagens - O maior Blog feito por Agentes de Viagens do Brasil
+        <br>
+        <a href="Contato.html">/ CONTATO /</a>
+        <a href="Quem.html"> QUEM SOMOS /</a>
+
+    </footer>
 </body>
 
-<footer style="text-align: center;background-color: aquamarine;font-size: 20px;">
-    Copyright 2025 direitos de Blog de Viagens - O maior Blog feito por Agentes de Viagens do Brasil
-    <br>
-    <a href="Contato.html">/ CONTATO /</a>
-    <a href="Quem.html"> QUEM SOMOS /</a>
-
-</footer>
+</html>
